@@ -1,0 +1,85 @@
+
+			*{
+				margin: 0;
+				padding: 0;
+				box-sizing: border-box;
+				font-family: Arial, Verenda, sans-serif
+			}
+			header{
+				background-color: #333;
+				font-family: arial;
+				margin-bottom: 10px;
+				padding: 30px;
+				color: white;
+				
+			}
+			main{
+				padding: 40px;
+			}
+			button{
+			  width: 25%;
+				height: 45px;
+				border: none;
+				font-size: 18px;
+				border-radius: 5px;
+				font-weight: bold;
+				cursor: pointer;
+			}
+			.quiz-area, .signin, .user-info, .start-area, .next-area{
+				padding: 40px;
+				/*box-shadow: 0 4px 8px 0 rgba(0, 0 , 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1), 5px 5px 10px 1px rgba(0.15, 0, 0, 0.15);*/
+			}
+			.quiz-block{
+				box-shadow: 5px 5px 10px 1px rgba(0.3, 0, 0, 0.3);
+				background-color: #333;
+				color: #fff;
+				padding: 20px;
+				border-radius: 5px;
+				text-align: center;
+			}
+			.quiz-block > p{
+				font-size: 30px;
+				font-weight: bold;
+				margin-bottom: 30px;
+			}
+			.buttons{
+				text-align: center;
+			}
+			.btn1{
+				margin-right: 35px;
+			}
+			.btn3{
+				margin-left: 35px;
+			}
+			.name{
+				height: 45px;
+				width: 40%;
+				border: none;
+				border-radius: 5px;
+				padding: 12px;
+				font-size: 18px;
+				font-weight: 600;
+			}
+			.info{
+				font-size: 18px;
+				text-align: left;
+				margin-bottom: 0;
+			}
+			@media(max-width:600px){
+				button{
+					width: 25%;
+				}
+				.btn1{
+					margin-right: 20px;
+				}
+				.btn3{
+					margin-left: 20px;
+				}
+			}
+			@media(max-width: 300px){
+				button{
+					width: 50%;
+					display: block;
+					margin: 15px;
+				}
+			}
